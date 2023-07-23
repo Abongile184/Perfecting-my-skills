@@ -1,0 +1,249 @@
+body{
+ 
+
+}
+
+* {
+margin: 0;
+font-family: 'Futura heavy', Geometric sans-serif;
+
+}
+
+img {
+  margin: 0;
+}
+
+/* Entire Page section */
+div.parent {
+  background: linear-gradient(to right, #f699cd 50%, whitesmoke 50%);
+  height:100vh;
+  z-index: 1;
+
+}
+
+/* Main Content section */
+div.child {
+  height: 580px;
+  width: 88%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 7;
+  border-radius: 20px;
+
+}
+
+/* Navigation bar */
+ ul {
+    background-color: rgba(255,255,255,0.0);/* this will make the background color for the navbar transparent*/
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    top: 0;
+    width: 100%;
+   }
+
+
+    li {
+       float: right;
+    }
+
+    li a {
+      color: black;
+      display: block;
+      padding: 30px 39px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+
+    li a:hover {
+    color: pink;
+    }
+
+h1, h2, h3, h4 {
+  font-family: ;
+}
+
+/*this is the nike logo */
+#nike-logo{
+    display:inline-block; 
+    width: 70px;
+    padding: 30px 39px;
+    position:absolute ;
+    left: 50px;
+    top: -17px;
+ }
+
+ #nike-text-logo{
+    display:inline-block; 
+    width: 70px;
+    padding: 30px 39px;
+    position:absolute ;
+    left: 115px;
+    top: -8x;
+
+ }
+
+
+/*this is the nike text of the page */
+ div.nike-text {
+     position: absolute;
+    left: 50px;
+    top: 220px;
+ }
+
+sup {
+  font-size: 30%;
+  margin-left: 5px;
+  position: absolute;
+  bottom: 105px;
+  left: 188px;
+
+}
+
+#text-one {
+  padding-top: 20px;
+}
+
+#text-two {
+  padding-top: 8px;
+}
+
+/* this is the sneaker image in the center */
+.image-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px; /* Adjust this value as needed */
+}
+
+.nike-sneaker-img {
+  max-width: 100%; /* Set the image size relative to its container */
+  max-height: 400px; /* Set the maximum height as needed */
+  transform: rotate(-30deg);
+}
+
+ /* this is the button section */
+.click-button{
+    position:absolute;
+    left: 50px;
+    top: 350px;
+}
+
+.button {
+  background-color: rgb(224,33,138); 
+  border: none;
+  color: white;
+  padding: 20px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.button:hover{
+   background-color: rgba(224,33,138,0.7); 
+}
+
+/*the icons section*/
+.logos {
+     position:absolute;
+    left: 50px;
+    top: 510px;
+
+}
+
+
+
+i{margin-top: 8px;}
+
+span{color: rgb(255,110,199);
+    border:1px solid rgb(255,110,199);
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+
+.second-icon {
+    color: rgb(255,110,199);
+    border:1px solid rgb(255,110,199);
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.third-icon {
+    color: rgb(255,110,199);
+    border:1px solid rgb(255,110,199);
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+/*hovering effect on each icon */
+.fa:hover{
+  color: rgba(255,110,199,0.5);
+}
+
+
+.second-icon:hover{
+  color: rgba(255,110,199,0.5);
+}
+
+.third-icon:hover{
+  color: rgba(255,110,199,0.5);
+}
+
+/*this part is the image in the center of the page */
+.center-image {
+  position: absolute;
+  top: 0px;
+  left: 455px;
+}
+
+/* Toggle Bar with Measurements */
+.toggle-container {
+  position: absolute;
+  bottom: 50px;
+  right: 50px; /* Adjust this value as needed */
+  width: 200px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.toggle-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #4CAF50;
+  border-radius: 10px;
+}
+
+.measurement {
+  position: absolute;
+  bottom: 80px;
+  right: 50px; /* Adjust this value as needed */
+  font-size: 16px;
+}
