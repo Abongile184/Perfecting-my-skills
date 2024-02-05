@@ -4,4 +4,4 @@ its not the exact landing page that i was replicating but most of it it is
 i was not able to add some parts as they require javascript which im not that familiar with for now
 and its not mobile responsive either .
 
-i built a replica of a nike landing page
+i built a replica of a nike landing page view it here: https://abongile184.github.io/Perfecting-my-skills/
