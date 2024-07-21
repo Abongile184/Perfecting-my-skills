@@ -5,3 +5,5 @@ i was not able to add some parts as they require javascript which im not that fa
 and its not mobile responsive either .
 
 i built a replica of a nike landing page view it here: https://abongile184.github.io/Perfecting-my-skills/
+
+![nike](https://github.com/user-attachments/assets/1b3762fa-1ee6-4f18-a301-2b77612ace48)
